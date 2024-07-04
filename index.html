@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="toggle-buttons">
+                <button class="toggle-btn active" id="signInBtn">Sign In</button>
+                <button class="toggle-btn" id="signUpBtn">Sign Up</button>
+            </div>
+            <h1 id="formTitle">Sign In</h1>
+            <form id="form">
+                <div class="input-container">
+                    <input type="email" placeholder="Email" required>
+                    <span class="icon">✉️</span>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder="Password" required>
+                    <span class="icon">🔒</span>
+                </div>
+                <div class="remember-me" id="rememberMe">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <button type="submit" class="submit-btn">Sign In →</button>
+            </form>
+            <div class="social-login">
+                <button class="social-btn google">G</button>
+                <button class="social-btn facebook">f</button>
+                <button class="social-btn twitter">t</button>
+                <button class="social-btn github">g</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
